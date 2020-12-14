@@ -1,9 +1,10 @@
-## Cleanup on aisle 5: PEP8ify
+# Cleanup on aisle 5: PEP8ify
+
 For this activity, you'll be cleaning up a program that functions properly,
 but doesn't conform to the [PEP 8](https://www.python.org/dev/peps/pep-0008/)
-style guide. 
+style guide.
 
-Your task is to update the program so that it is PEP 8 compliant. 
+Your task is to update the program so that it is PEP 8 compliant.
 
 ## Guidelines
 
@@ -16,17 +17,19 @@ Your task is to update the program so that it is PEP 8 compliant.
 - The test suite (see below) must pass all tests.
 
 ## Running the test suite
+
 There are several ways to run the test suite:
 
-- Use automatic[ _test discovery_ within VSCode](https://code.visualstudio.com/docs/python/unit-testing).  You must enable this feature in your IDE.
+- Use automatic[test discovery within VSCode](https://code.visualstudio.com/docs/python/unit-testing).  You must enable this feature in your IDE.
 
 - You can use [rerun](https://pypi.org/project/rerun/) run continually run unit tests:
 
 ```console
-$ rerun "python -m unittest discover"
+rerun "python -m unittest discover"
 ```
 
 If you don't have rerun installed, you can run the test suite by itself:
+
 ```console
-$ python -m unittest discover
+python -m unittest discover
 ```
